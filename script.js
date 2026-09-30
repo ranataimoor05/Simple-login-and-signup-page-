@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       input.setAttribute("type", isPassword ? "text" : "password");
 
-      // Update icon opacity/style to reflect state
-      btn.style.opacity = isPassword ? "1" : "0.6";
+      // Adjust icon visual state when visible
+      btn.style.color = isPassword ? "#d97706" : "#64748b";
     });
   });
 
